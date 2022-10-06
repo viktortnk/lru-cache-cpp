@@ -1,12 +1,7 @@
 #include <gtest/gtest.h>
 #include "lru_cache.h"
 
-// Demonstrate some basic assertions.
 TEST(BasicCacheTest, BasicAssertions) {
-  // Expect two strings not to be equal.
-  EXPECT_STRNE("hello", "world");
-  // Expect equality.
-  EXPECT_EQ(7 * 6, 42);
 
   lru_cache<std::string, std::string> cache(4);
 
