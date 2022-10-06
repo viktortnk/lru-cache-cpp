@@ -1,0 +1,6 @@
+.cache/
+build/
+.vscode/
+.idea/
+compile_commands.json
+/cmake-build-debug/
